@@ -25,10 +25,10 @@ cc_library_shared {
     ],
     header_libs: [
         "display_headers",
-        "device_kernel_headers",
+        "generated_kernel_headers",
     ],
     export_header_lib_headers: [
-        "device_kernel_headers",
+        "generated_kernel_headers",
     ],
     export_include_dirs: ["."],
 }
